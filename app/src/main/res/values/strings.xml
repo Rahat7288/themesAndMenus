@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Themes And Menus</string>
+    <string name="app_name">Themes</string>
+    <string name="edit_text_hint">Please enter your name: </string>
+
 </resources>
