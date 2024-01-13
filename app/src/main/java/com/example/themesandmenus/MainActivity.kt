@@ -5,12 +5,18 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import android.widget.Toolbar
 import com.example.themesandmenus.R.menu
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+//        adding toolbar replace of actionBar =============
+
+        val  toolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.tool_bar)
+        setSupportActionBar(toolbar)
     }
 
 //    adding menu on the appBar====================
