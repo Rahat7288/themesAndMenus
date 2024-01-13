@@ -1,13 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.ThemesAndMenus" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.ThemesAndMenus" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
 
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="colorPrimary">@color/background_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_color_veriat</item>
         <item name="colorSecondary">@color/secondary_color</item>
-        <item name="android:statusBarColor">@color/toolbar_color</item>
+        <item name="android:statusBarColor">@color/primary_color_veriat</item>
+        <item name="android:background">#E9F6F4</item>
+
     </style>
 
-    <style name="Theme.ThemesAndMenus" parent="Base.Theme.ThemesAndMenus" />
+<!--    <style name="Theme.ThemesAndMenus" parent="Base.Theme.ThemesAndMenus" />-->
 </resources>

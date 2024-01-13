@@ -3,7 +3,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_color">#E6FFFD</color>
-    <color name="toolbar_color">#3A98B9</color>
+    <color name="toolbar_color">#773A98B9</color>
     <color name="primary_color">#EF4040</color>
+    <color name="primary_color_veriat">#F05941</color>
     <color name="secondary_color">#711DB0</color>
 </resources>
