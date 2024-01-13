@@ -9,7 +9,7 @@
 </androidx.appcompat.widget.Toolbar>
 
 <!--
-*first create a layout file from android layout and add the requried elements for
+*first create a layout file from android layout and add the required elements for
 the tool bar
 * then we need to add this tool bar on activity_main file or where we need to add this file
 -->
